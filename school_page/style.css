@@ -1,0 +1,153 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+@font-face {
+    font-family: 'aliceregular';
+    src: url('fonts/alice-regular-webfont.woff2') format('woff2'),
+         url('fonts/alice-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'artifikamedium';
+    src: url('fonts/artifika-regular-webfont.woff2') format('woff2'),
+         url('fonts/artifika-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+		font-size: 10px;
+		background-color: gainsboro;
+}
+
+body {
+		font-family: 'aliceregular', sans-serif;
+		font-size: 1.5em;
+		line-height: 1.75;
+		word-spacing: 1px;
+}
+
+h1 {
+		font-family: 'artifikamedium', serif;
+		text-align: center;
+		letter-spacing: 1rem;
+}
+
+h2+p {
+		text-indent: 20px;
+}
+
+/* styling links */
+
+a {
+		text-decoration: underline;
+}
+
+a:link {
+		color: darksalmon;
+}
+
+a:visited {
+		color: brown;
+}
+
+a:focus {
+		color: orange;
+		text-decoration: none;
+}
+
+a:hover{
+		color: orange;
+		text-decoration: none;
+}
+
+a:active {
+		color: red;
+}
+
+a[href*="http"] {
+		background: url("external-link-52.png") no-repeat 100% 0;
+		background-size: 1.5em 1.5em;
+		padding-inline-end: 2em;
+}
+
+/* lists styling */
+
+p,
+ul,
+ol,
+li {
+		line-height: 1.5;
+}
+
+ul, ol {
+		list-style-type: circle;
+}
+
+
+/* navmenu styling */
+
+nav ul {
+		list-style: none;
+} 
+
+nav li {
+		font-size: 2rem;
+		line-height: 2;
+		margin-block-start: 1rem; 
+		margin-block-end: 1rem; 
+		text-align: center;
+		border: 1px solid brown;
+		border-radius: 5px;
+		background-color: linen;
+}
+
+nav a:link {
+		text-decoration: none;
+}
+
