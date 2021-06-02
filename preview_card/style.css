@@ -136,7 +136,27 @@ main {
 
 /* card content styling (mobile) */
 
+@media (max-width: 700px) {
+    .card {
+        flex-direction: column;
+        background-image: url("images/image-header-mobile.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
 
+    .img {
+        background-image: none;
+    }
+
+    .content {
+        margin-top: 80vw;
+        text-align: center;
+    }
+
+    .content .list {
+        flex-direction: column;
+    }
+}
 
 
 
