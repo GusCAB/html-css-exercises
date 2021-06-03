@@ -27,6 +27,7 @@ Users should be able to:
 ### Links
 
 - Live Site URL: (https://guscab.github.io/html-css-exercises/preview_card/index.html)
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-preview-card-site-using-flexbox-LM6HM4zSO)
 
 ## My process
 
