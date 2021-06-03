@@ -21,7 +21,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
+![](./images/screenshot1.png)
+![](./images/screenshot2.png)
 
 ### Links
 
@@ -34,4 +35,5 @@ Users should be able to:
 - HTML5 markup
 - CSS3 Styling
 - Flexbox
-
+- Desktop-First Workflow
+- GIMP
