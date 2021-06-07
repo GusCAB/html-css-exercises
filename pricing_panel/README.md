@@ -25,13 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](.images/screenshot1.png)
-![](.images/screenshot2.png)
+![](images/screenshot1.png)
+![](images/screenshot2.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://guscab.github.io/html-css-exercises/pricing_panel/index.html)
 
 ## My process
 
